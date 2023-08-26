@@ -1,0 +1,125 @@
+body {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(110deg, #9BE8D8 60%, #ffed4b 60%);
+}
+
+#box{
+  color: #fff;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: black;
+  text-align: center;
+}
+
+.Game{
+  background-color:black;
+  width:600px !important;
+	height:600px;
+  position: relative;
+  border: 4px solid grey;
+  border-radius: 50%;
+}
+
+
+/* Four Button */
+.fourButton{
+  position: absolute;
+  width:240px;
+	height:240px;
+  margin: 20px;
+}
+#green{
+  top: 20px;
+  left: 25px;
+  border-radius: 100% 10% 10% 10%;
+  background-color: green;
+}
+#red{
+  top: 20px;
+  right: 25px;
+  border-radius: 10% 100% 10% 10%;
+  background-color: red;
+}
+#blue{
+  bottom: 20px;
+  right: 25px;
+  border-radius: 10% 10% 100% 10%;
+  background-color: blue;
+}
+#yellow{
+  bottom: 20px;
+  left: 25px;
+  border-radius: 10% 10% 10% 100%;
+  background-color: yellow;
+}
+
+/* Center */
+#center{
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Caprasimo', cursive;
+  position: absolute;
+  top: 170px;
+  left: 170px;
+  width:250px;
+	height:250px;
+  background-color: black ;
+  border: 2px solid black;
+  border-radius: 50%;
+  opacity: 100%;
+}
+
+#counter{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem !important;
+}
+
+
+.start{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: black;
+  text-align: center;
+  position: absolute;
+  left: 62px;
+  bottom: 20px;
+  background-color: greenyellow;
+  width:120px;
+	height:85px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 80px white;
+  background-color: grey;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
